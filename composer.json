@@ -1,0 +1,25 @@
+{
+    "name": "wazsmwazsm/config",
+    "description": "A DotArr Config Tool",
+    "keywords": ["Config", "DotArr"],
+    "license": "MIT",
+    "homepage": "https://github.com/wazsmwazsm/Config",
+    "authors": [
+      {
+        "name": "MrQin",
+        "email": "942443360@qq.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "wazsmwazsm/kit": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "src/Config/"
+        }
+    }
+}
